@@ -111,7 +111,7 @@ body{
 }
 #box-3{
     background: linear-gradient(rgb(201,127,103),rgb(219,78,29));
-    
+
 }
 .bi{
     color:rgb(59,59,55);
@@ -134,7 +134,7 @@ body{
 }
 .row-line{
     position: absolute;
-    height: 293px;
+    height: 323px;
     width: 1px;
     background-color: white;
     margin-left: 3px;
