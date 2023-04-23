@@ -1,129 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="gRGfCx9ZUeb7tCXdfrNI1O-xPmW6qSGPJzqJi07wHHM" />
-    <title>hacimuhammed</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/css/uikit.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit-icons.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>haci</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <meta name="title" content="Hacı Muhammed">
-    <meta name="description" content="hacimuhammed">
-    <meta name="keywords" content="haci, hacimuhammed, haci muhammed hacimuhammedgozel, haci3542, Hacı Muhammed Gözel, Hacı Gözel">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="author" content="hacimuhammed">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
 
-</head>
-<body>
-    <div class="container">
-        <div class="nav">
-            <div class="nav-up">
-                <div class="nav-upCenter">haci@linux-desktop: /tmp/archive</div>
-                <div class="nav-upRight">
-                    <div class="inline">
-                        <div class="box">
-                            <div id="box-1"></div>
-                        </div>
-                        <div class="box">
-                            <div id="box-2"></div>
-                        </div>
-                        <div class="box" id="box-3">
-                            <i class="bi bi-x"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-bottom">
-                <ul>
-                    <li>File</li>
-                    <li>Edit</li>
-                    <li>View</li>
-                    <li>Search</li>
-                    <li>Terminal</li>
-                    <li>Help</li>
-                </ul>
-            </div>
-        </div>
-        <div class="main">
-            <p>Setting up tree (1.7.0-5) ...</p>
-            <p>Processing triggers for man-db (2.8.3-2) ...</p>
-            <p>
-                <p style="color: rgb(88, 241, 88); display: inline;">haci@linux-desktop</p>:
-                <p style="color: rgb(48, 156, 250); display: inline;">/tmp/archive</p>$
-                <p style="display: inline;"> tree</p>
-                <p style="color: rgb(48, 156, 250); line-height: 16px;">.</p>
-                <p class="row-line"></p>
-                <p class="directory"> </p>
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about">readme.md</div>
-                </div>
+    <meta name="author" content="haci" />
+    <meta
+      name="description"
+      content="haci, haci, haci,haci ,haci"
+    />
+    <meta
+      name="keywords"
+      content="haci"
+    />
 
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about" style="color: rgb(48, 156, 250);">Some Projects</div>
-                </div>
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about" ><a href="#"  style="color: white;">index.html</a></div>
-                </div>
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="canonical" href="index.html" />
 
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about"><a href="tdk/" style="color: white;">tdkApi</a></div>
-                </div>
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="assets/cdn.jsdelivr.net/gh/devicons/devicon%40latest/devicon.min.css"
+    />
+    <script src="assets/code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="assets/js/repo-card.js"></script>
+    <script src="assets/ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Animation-->
+    <link
+    rel="stylesheet"
+    href="assets/cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="assets/unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
 
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about"><a href="p/swiper/" style="color: white;">JS Swiper</a></div>
-                </div>
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about"><a href="p/p5JS/" style="color: white;">P5JS</a></div>
-                </div>
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about"><a href="p/BoxLoading/" style="color: white;">Box Loading Animation</a></div>
-                </div>
+  </head>
+  <body>
+    <!-- <div id="progress">
+      <span id="progress-value"></span>
+    </div> -->
 
+    <section>
+      <div class="container">
+        <div id="top" class="page-scroll"></div>
+        <!-- Navbar -->
+        <header>
+          <a href="#top" class="logo">haci</a>
+          <ul>
+            <li><a class="active page" href="#top" id="home-btn">Ana Sayfa</a></li>
+            <li><a href="#about" class="page" id="about-btn">Hakkımda</a></li>
+            <!--<li><a href="#experience" class="page"id="experience-btn">Experience</a></li>-->
+            <li><a href="#projects" class="page" id="project-btn">Projelerim</a></li>
+            <li>
+              <a href="#contact" class="enabledisable page" id="contact-btn"
+                >İletişim</a
+              >
+            </li>
+          </ul>
+        </header>
 
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about" style="color: rgb(48, 156, 250);">Contact</div>
-                </div>
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about">E-Mail - haci@gozel.tech</div>
-                </div>
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about"><a href="https://github.com/hacimuhammed" style="color: white;">Github - hacimuhammed</a></div>
-                </div>
-                <div style="display: flex;">
-                    <div class="col-line"></div>
-                    <div class="col-about">Discord - haci#0709</div>
-                </div>
-                <div style="margin-top: 30px;"></div>
-                <div>2 directories, 9 files</div>
-                <div style="color: rgb(88, 241, 88); display: inline; line-height: 1px;">haci@linux-desktop</div>:
-                <div style="color: rgb(48, 156, 250); display: inline; line-height: 1px;">/tmp/archive </div>$<div class="tAnimation" style="display: inline; margin-left: 15px;"><input type="text"></div>
-
-
+        <!-- Main Content -->
+        <div class="content">
+          <div class="column">
+            <h2 data-aos="fade-down" data-aos-duration="1000">Merhaba, Ben haci<span class="wave">👋</span></h2>
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Ben bir yazılım geliştiriciyim ve yazılım dünyasındaki yenilikleri takip etmek, öğrenmek ve uygulamak benim için büyük bir tutku. Özellikle JavaScript konusunda kendimi geliştirmek için çaba sarf ediyorum ve sürekli olarak kendimi yenilemeye çalışıyorum.
             </p>
+
+          </div>
+          <div class="img">
+            <img
+              src="assets/Vector%2010.png"
+              class="shape"
+              style="top: 5rem; right: 15rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="assets/Vector%2011.png"
+              class="shape"
+              style="height: 8rem; width: 8rem; top: 8rem; right: 20rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="assets/Vector%2016.png"
+              class="shape"
+              style="height: 8rem; width: 8rem; top: 8rem; right: 15rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="assets/Vector%2010.png"
+              class="shape"
+              style="z-index: 1; top: 23rem; right: 9rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="assets/Vector%2027.png"
+              class="shape"
+              style="
+                z-index: 1;
+                height: 8rem;
+                width: 8rem;
+                top: 25rem;
+                right: 13rem;
+              "
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="assets/Vector%2011.png"
+              class="shape"
+              style="
+                z-index: 1;
+                height: 4rem;
+                width: 4rem;
+                top: 26rem;
+                right: 9rem;
+              "
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img src="assets/developer.png" alt="APS-OCTOCAT" data-aos="fade-up-right" data-aos-duration="1000"/>
+          </div>
         </div>
+
+        <!-- 2nd Section -->
+        <div id="about" class="content page-scroll" style="justify-content: space-around">
+          <div class="img" data-aos="fade-right" data-aos-duration="1000">
+            <img
+              src="assets/js.png"
+              alt="APS-OCTOCAT"
+            />
+          </div>
+          <div class="column-2">
+            <svg
+              xmlns="//www.w3.org/2000/svg"
+              version="1.1"
+              class="svg-filters"
+              style="display: none"
+            >
+              <defs>
+                <filter id="marker-shape">
+                  <feTurbulence
+                    type="fractalNoise"
+                    baseFrequency="0 0.15"
+                    numOctaves="1"
+                    result="warp"
+                  />
+                  <feDisplacementMap
+                    xChannelSelector="R"
+                    yChannelSelector="G"
+                    scale="30"
+                    in="SourceGraphic"
+                    in2="warp"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <h2 style="font-weight: 550">
+              <span class="low-highlight-pink">Teknoloji Keşfi ve Geliştirme</span>
+            </h2>
+            <h3 style="font-size: 24px; color: #444444; font-weight: 1; margin-bottom:60px">
+              Bir developer olarak, teknolojinin tüm yönlerine olan ilgimi ve merakımı ifade etmek isterim. Yenilikleri takip etmek ve elimden geldiğince çok şey öğrenmek benim için önemlidir. Kodlama, yapay zeka, veri analizi gibi konulara özel ilgim var ve sürekli olarak bu alanlarda kendimi geliştirmeye çalışıyorum.
+            </h3>
+
+
+            <div>
+              <p style="color: #444444; font-size: 20px; padding: 5px; margin-top: -10px">
+
+                JavaScript, günümüzün en yaygın kullanılan programlama dillerinden biridir ve web geliştirme alanında önemli bir yere sahiptir. Ben de yazılım geliştirme alanında kariyer yapmak isteyen biri olarak, JavaScript becerilerimi geliştirmek için yoğun bir çaba sarf ediyorum. Bu amaçla, kendimi güncel tutmak ve en yeni teknolojileri öğrenmek için sürekli olarak eğitimlere katılıyor, online kaynaklar kullanıyor ve uygulamalı projeler üzerinde çalışıyorum. Ayrıca, JavaScript konusunda deneyimli meslektaşlarımdan öğrenmek ve tecrübelerini paylaşmak için de fırsatlar arıyorum. Bu sayede, kendimi geliştirerek daha iyi bir yazılım geliştirici olacağıma inanıyorum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 4th Section -->
+        <svg
+          xmlns="//www.w3.org/2000/svg"
+          version="1.1"
+          class="svg-filters"
+          style="display: none"
+        >
+          <defs>
+            <filter id="marker-shape">
+              <feTurbulence
+                type="fractalNoise"
+                baseFrequency="0 0.15"
+                numOctaves="1"
+                result="warp"
+              />
+              <feDisplacementMap
+                xChannelSelector="R"
+                yChannelSelector="G"
+                scale="30"
+                in="SourceGraphic"
+                in2="warp"
+              />
+            </filter>
+          </defs>
+        </svg>
+        <h2
+          id="projects"
+          class="mob-h2 page-scroll"
+          style="font-size: 56px; font-weight: 700; margin-top: 50px"
+        >
+         <span class="low-highlight-cyan">Projelerim</span>
+        </h2>
+        <div class="projects" data-aos="fade-up" data-aos-duration="1500">
+          <div class="repo-card" data-repo="hacimuhammed/bettervideo"></div>
+          <div class="repo-card" data-repo="hacimuhammed/webCopier"></div>
+          <div class="repo-card" data-repo="hacimuhammed/hacimuhammed.github.io"></div>
+          <div class="repo-card" data-repo="hacimuhammed/Discord-User-Api"></div>
+          <div class="repo-card" data-repo="hacimuhammed/PublicJava"></div>
+        </div>
+
+        <!-- 5th Section -->
+        <h2 style="font-size:56px; font-weight: 700; margin-top: 90px;"><span class="low-highlight-lightyellow">Kullandığım Teknolojiler</span></h2>
+        <div class="achievement-cards-div">
+
+
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+            <i class="devicon-nodejs-plain-wordmark colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">NodeJS</h5>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+              <i class="devicon-mongodb-plain-wordmark colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">MongoDB</h5>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+              <i class="devicon-javascript-plain colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">JavaScript</h5>
+            </div>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+              <i class="devicon-csharp-plain colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">C#</h5>
+            </div>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+              <i class="devicon-microsoftsqlserver-plain colored"></i>
+
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">MSSQL</h5>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">HTML5</h5>
+            </div>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+
+              <i class="devicon-css3-plain colored"></i>
+
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">CSS</h5>
+            </div>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+              <i class="devicon-react-original-wordmark colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">React</h5>
+            </div>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+              <i class="devicon-tailwindcss-original-wordmark colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">Tailwind</h5>
+            </div>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image-div">
+            <i class="devicon-bootstrap-plain colored"></i>
+            </div>
+            <div class="certificate-detail-div">
+              <h5 class="card-title">Bootstrap</h5>
+            </div>
+          </div>
+
+      </div>
+
+
+        <h2  id="contact"
+          class="mob-connect enabledisable page-scroll"
+          style="font-size: 40px; font-weight: 700; margin-top: 50px"
+        >
+          <span class="low-highlight-hazeskin">Connect with me</span>
+        </h2>
+        <ul class="socialsites ">
+          <li>
+            <a href="https://github.com/hacimuhammed"><i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+
+        <!-- Footer -->
+      </div>
+    </section>
+    <div class="button-top-div" id="myDIV">
+      <a id="button-top" href="#top"><i class="fas fa-chevron-up"></i></a>
     </div>
-</body>
+
+    <!-- Page Scroll Percentage -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Page Scroll Up On Click -->
+    <script>
+      //scroller fixed
+      var scrolBtn = document.querySelector("#myDIV");
+      window.addEventListener("scroll", function () {
+        let offset;
+        offset = window.pageYOffset;
+        if (offset > 300) {
+          scrolBtn.style.display = "block";
+        }
+        if (offset < 300) {
+          scrolBtn.style.display = "none";
+        }
+      });
+
+      //remove that #s in the link
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        });
+      });
+    </script>
+    <script src="assets/unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
 </html>
